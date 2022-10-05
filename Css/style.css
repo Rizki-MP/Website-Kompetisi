@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-atas {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#main {
+    background-color: #ebebeb;
+    height: 74.6vh;
+}
+
+#lomba-1 {
+    background-color: #fff;
+    margin-top: 15px;
+}

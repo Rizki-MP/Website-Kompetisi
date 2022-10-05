@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- my Css -->
+  <link rel="stylesheet" href="Css/style.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="Assets/Font/Font-Awesome/css/all.min.css">
+
+  <title>COIBA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <nav>
+        <section id="nav-atas" class="flex justify-center items-center p-5 pb-7 ">
+            <div id="nav-brand" class="w-3/4">
+                <img src="" alt="">
+                <h2 class="text-3xl text inline-block font-bold text-purple-700 ml-10">LOMBA</h2><span class="ml-2 text-1xl text-green-600">Madrasah</span>
+            </div>
+            <div id="nickname" class="w-1/4">
+                <div class="w-1/4"></div>
+                <div class="flex w-3/4 justify-center items-center rounded-lg shadow-md ">
+                    <div class="1/4">
+                        <i class="fas fa-user mr-3"></i>
+                    </div>
+                    <div class="3/4">
+                        <p class="text-amber-600 font-medium">Rizki Muh Pasinringi</p>
+                        <p class="text-slate-400 font-reguler -mt-2">Mts BOYYYY</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nav-bawah">
+            <ul class="flex p-4">
+                <li class="ml-10 font-reguler cursor-pointer text-purple-700"><i class="fas fa-home"></i> Home</li>
+                <li class="ml-7 font-reguler cursor-pointer"><i class="fas fa-user"></i> Profil</li>
+                <li class="ml-7 font-reguler cursor-pointer"><i class="fas fa-window-restore"></i> Pengumuman</li>
+                <li class="ml-7 font-reguler cursor-pointer"><i class="fas fa-certificate"></i> Sertifikat</li>
+            </ul>
+        </section>
+    </nav>
+
+    <main id="main" class="p-16 pt-8">
+        <div id="title">
+            <h3 class="font-regular text-2xl text-zinc-700">Lomba yang tersedia</h3>
+        </div>
+        <div id="lomba-1" class="w-96 p-5 rounded-lg shadow-md text-slate-500">
+            <p class="font-semibold">LCS</p>
+            <p class="">Lomba Coding Santuy</p>
+            <p class="mt-6 border-b-2 mb-5">35 Desember 3013</p>
+            <p>1. Copas</p>
+            <p>2. Google</p>
+            <p>3. Pakai Framework</p>
+            <p>4. Copas</p>
+            <p>6. Copas</p>
+            <p>7. Copas</p>
+            <p>8. Copas</p>
+            <button class="px-4 block py-2 ml-auto rounded-lg shadow-md mt-3 text-white bg-purple-700">Detail</button>
+        </div>
+    </main>
+  <!-- <h1 class="text-3xl font-bold underline **text-clifford**">
+    Hello world!
+  </h1> -->
+</body>
+</html>

@@ -10,7 +10,7 @@
   <!-- font awesome -->
   <link rel="stylesheet" href="Assets/Font/Font-Awesome/css/all.min.css">
 
-  <title>COIBA</title>
+  <title>Lomba Madrasah</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -25,13 +25,15 @@
   </script>
 </head>
 <body>
-    <nav>
-        <section id="nav-atas" class="flex justify-center items-center p-5 pb-7 ">
-            <div id="nav-brand" class="w-3/4">
+
+  <!-- Header -->
+    <nav class="w-full">
+        <section id="nav-atas" class="flex justify-center flex-row w-full items-center p-4 pb-5 ">
+            <div id="nav-brand" class="w-full ">
                 <img src="" alt="">
                 <h2 class="text-3xl text inline-block font-bold text-purple-700 ml-10">LOMBA</h2><span class="ml-2 text-1xl text-green-600">Madrasah</span>
             </div>
-            <div id="nickname" class="w-1/4">
+            <div id="nickname" class="w-full flex">
                 <div class="w-1/4"></div>
                 <div class="flex w-3/4 justify-center items-center rounded-lg shadow-md ">
                     <div class="1/4">
@@ -46,19 +48,21 @@
         </section>
         <section id="nav-bawah">
             <ul class="flex p-4">
-                <li class="ml-10 font-reguler cursor-pointer text-purple-700"><i class="fas fa-home"></i> Home</li>
-                <li class="ml-7 font-reguler cursor-pointer"><i class="fas fa-user"></i> Profil</li>
-                <li class="ml-7 font-reguler cursor-pointer"><i class="fas fa-window-restore"></i> Pengumuman</li>
-                <li class="ml-7 font-reguler cursor-pointer"><i class="fas fa-certificate"></i> Sertifikat</li>
+                <li class="ml-10 font-reguler cursor-pointer text-purple-800 transition ease-in-out duration-200"><i class="fas fa-home"></i> Home</li>
+                <li class="ml-7 font-reguler cursor-pointer hover:text-purple-600 transition ease-in-out duration-200"><i class="fas fa-user"></i> Profil</li>
+                <li class="ml-7 font-reguler cursor-pointer hover:text-purple-600 transition ease-in-out duration-200"><i class="fas fa-window-restore"></i> Pengumuman</li>
+                <li class="ml-7 font-reguler cursor-pointer hover:text-purple-600 transition ease-in-out duration-200"><i class="fas fa-certificate"></i> Sertifikat</li>
             </ul>
         </section>
     </nav>
+  <!-- End Header -->
 
+  <!-- Main -->
     <main id="main" class="p-16 pt-8">
         <div id="title">
             <h3 class="font-regular text-2xl text-zinc-700">Lomba yang tersedia</h3>
         </div>
-        <div id="lomba-1" class="w-96 p-5 rounded-lg shadow-md text-slate-500">
+        <div id="lomba-1" class="w-96 mt-4 bg-white p-5 rounded-lg shadow-md text-slate-500">
             <p class="font-semibold">LCS</p>
             <p class="">Lomba Coding Santuy</p>
             <p class="mt-6 border-b-2 mb-5">35 Desember 3013</p>
@@ -69,9 +73,10 @@
             <p>6. Copas</p>
             <p>7. Copas</p>
             <p>8. Copas</p>
-            <button class="px-4 block py-2 ml-auto rounded-lg shadow-md mt-3 text-white bg-purple-700">Detail</button>
+            <button class="px-4 py-2 rounded-2xl mt-3 text-white bg-purple-700 transition ease-in-out duration-150 hover:shadow-3xl hover:rounded-3xl">Detail</button>
         </div>
     </main>
+  <!-- End Main -->
   <!-- <h1 class="text-3xl font-bold underline **text-clifford**">
     Hello world!
   </h1> -->
